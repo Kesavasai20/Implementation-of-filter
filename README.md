@@ -8,22 +8,27 @@ Anaconda - Python 3.7
 ## Algorithm:
 ### Step1
 </br>
+Import the required libraries.
 </br> 
 
 ### Step2
 </br>
+Read the image by using imread().
 </br> 
 
 ### Step3
 </br>
+Apply the required filters for the image separately.
 </br> 
 
 ### Step4
 </br>
+Plot the original and filtered image by using matplotlib.pyplot.
 </br> 
 
 ### Step5
 </br>
+End the program.
 </br> 
 
 ## Program:
@@ -33,8 +38,8 @@ Anaconda - Python 3.7
 
 ### 1. Smoothing Filters
 
-## i) Using Averaging Filter
-```Python
+### i) Using Averaging Filter
+```Py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,9 +59,8 @@ plt.imshow(img2)
 plt.title('Filtered')
 plt.axis('off')
 ```
-## ii) Using Weighted Averaging Filter
-```Python
-
+### ii) Using Weighted Averaging Filter
+```Py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -75,12 +79,9 @@ plt.subplot(1,2,2)
 plt.imshow(img2)
 plt.title('Filtered')
 plt.axis('off')
-
-
-
 ```
-## iii) Using Gaussian Filter
-```Python
+### iii) Using Gaussian Filter
+```Py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -97,11 +98,10 @@ plt.subplot(1,2,2)
 plt.imshow(gaussian_blur)
 plt.title('Filtered')
 plt.axis('off')
-
 ```
 
-iv) Using Median Filter
-```Python
+### iv) Using Median Filter
+```Py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -118,15 +118,12 @@ plt.subplot(1,2,2)
 plt.imshow(median)
 plt.title('Filtered')
 plt.axis('off')
-
-
-
 ```
 
 ### 2. Sharpening Filters
-i) Using Laplacian Kernal
-```Python
 
+### i) Using Laplacian Kernal
+```Py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -145,13 +142,9 @@ plt.subplot(1,2,2)
 plt.imshow(img3)
 plt.title('Filtered')
 plt.axis('off')
-
-
-
 ```
-ii) Using Laplacian Operator
-```Python
-
+### ii) Using Laplacian Operator
+```Py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -177,26 +170,26 @@ plt.axis('off')
 ### 1. Smoothing Filters
 </br>
 
-i) Using Averaging Filter
+### i) Using Averaging Filter
 ![image](https://github.com/Kesavasai20/Implementation-of-filter/assets/138849303/7359c071-4a2e-48c6-af7f-27f86235f5d6)
 
-ii) Using Weighted Averaging Filter
+### ii) Using Weighted Averaging Filter
 ![image](https://github.com/Kesavasai20/Implementation-of-filter/assets/138849303/8c49fec7-0675-4900-afa6-9e501561f04b)
 
-iii) Using Gaussian Filter
+### iii) Using Gaussian Filter
 ![image](https://github.com/Kesavasai20/Implementation-of-filter/assets/138849303/a0d25d0c-360a-4022-858f-a9f3de77482a)
 
-iv) Using Median Filter
+### iv) Using Median Filter
 ![image](https://github.com/Kesavasai20/Implementation-of-filter/assets/138849303/85403d50-8008-4d56-87f8-fa101392fefb)
 
 ### 2. Sharpening Filters
 </br>
 
-i) Using Laplacian Kernal
+### i) Using Laplacian Kernal
 ![image](https://github.com/Kesavasai20/Implementation-of-filter/assets/138849303/ff939e40-d019-4f68-9ca2-e36e18811ace)
 
-ii) Using Laplacian Operator
+### ii) Using Laplacian Operator
 ![image](https://github.com/Kesavasai20/Implementation-of-filter/assets/138849303/4bae56a8-41be-45b8-ad82-57983023dfaa)
 
-## Result:
+### Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
