@@ -59,7 +59,7 @@ plt.imshow(img2)
 plt.title('Filtered')
 plt.axis('off')
 ```
-### ii) Using Weighted Averaging Filter
+ ### ii) Using Weighted Averaging Filter
 ```Py
 import cv2
 import numpy as np
